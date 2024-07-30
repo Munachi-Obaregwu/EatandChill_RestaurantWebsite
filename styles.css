@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #logo {
     font-family: 'Great Vibes', cursive;
     font-size: 30px;
@@ -13,7 +17,7 @@
 #links {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    transition: 1.5s all;
+    transition: 0.5s all;
     font-weight: 800;
 }
 
@@ -27,4 +31,23 @@ footer {
     color: white;
     text-align: center;
     padding-top: 2.5rem;
+}
+
+section {
+    height: 90vh;
+}
+
+.social_links {
+    font-size: 1.2rem;
+    margin-right: 0.2rem;
+}
+
+#github {
+    color: black;
+}
+
+.these_cards {
+    margin-right: 5.7rem;
+    display: flex;
+    justify-content: center;
 }
